@@ -1,0 +1,95 @@
+
+body {
+    min-height: 100vh;
+    background-color: rgb(199, 201, 199);
+    //background-image: linear-gradient(45deg, orange, rgb(236, 83, 83));
+    //background-color: green;
+}
+h1 {    
+    text-align: center;
+    color: rgb(233, 125, 141);
+}
+input:focus, textarea:focus, select:focus, button:focus{
+    outline: none;
+}
+
+.input-box {
+    text-align: center;
+    
+}
+.text-box {
+    font-size: 20px;
+    padding: 0 10px;
+    border: none;
+    background: white;
+}
+.add-btn {
+    font-size: 20px;
+    margin-left: -5px;
+    background-color: white;
+    border: none;
+    background: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(232, 235, 232);
+    color: rgb(128, 125, 125);
+    cursor: pointer;    
+}
+.add-btn:hover {
+    color: rgb(232, 235, 232);
+    background-color: rgb(128, 125, 125);
+}
+.itemLists {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+
+.todo-item {
+    
+    position: relative;
+    width: 40%;
+    padding-left: 10px;
+    margin: 3px auto;
+    font-size: 30px; 
+}
+
+.done-btn {
+    width: auto;
+    font-size: 30px;
+    background-color: rgb(42, 165, 58);
+    border: 0px solid black;
+    float: right;
+
+}
+/*.done-btn:hover{
+    color: rgb(42, 165, 58);
+    background-color: black;
+}*/
+.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+   
+}
+.delete-btn {
+    width: auto;
+    font-size: 30px;
+    background-color: brown;
+    float: right;
+    border: 0px solid black;
+    
+}
+/*.delete-btn:hover {
+    background-color: black;
+    color: brown;
+    cursor: pointer;
+}*/
+li {
+    transition-duration: 0.5s;
+}
+
+.drop {
+    transform: translateY(6rem) rotateZ(20deg);
+    opacity: 0%;
+}
